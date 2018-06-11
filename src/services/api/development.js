@@ -8,6 +8,9 @@ class DevelopmentManager extends BaseModule {
   getIndexList () {
     return this.get(`/users?page=1`)
   }
+  master () {
+    return 'master'
+  }
 }
 
 export default new DevelopmentManager()
