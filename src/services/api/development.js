@@ -5,21 +5,6 @@ class DevelopmentManager extends BaseModule {
     super()
     this.name = 'DevelopmentManager'
   }
-  devtest () {
-    return this.get(`/users?page=1`)
-  }
-  master () {
-    return 'master'
-  }
-  test () {
-    return 'test'
-  }
-  test1 () {
-    return 'test1'
-  }
-  test2 () {
-    return 'test34'
-  }
 }
 
 export default new DevelopmentManager()
