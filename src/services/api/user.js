@@ -6,7 +6,7 @@ class DevelopmentManager extends BaseModule {
     this.name = 'DevelopmentManager'
   }
   dev () {
-    return this.get(`/users?page=1`)
+    return this.get(`/users?page=2`)
   }
 }
 
