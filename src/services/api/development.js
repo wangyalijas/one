@@ -5,7 +5,7 @@ class DevelopmentManager extends BaseModule {
     super()
     this.name = 'DevelopmentManager'
   }
-  getIndexList () {
+  devtest () {
     return this.get(`/users?page=1`)
   }
   master () {
