@@ -14,6 +14,9 @@ class DevelopmentManager extends BaseModule {
   test () {
     return 'test'
   }
+  test1 () {
+    return 'test1'
+  }
 }
 
 export default new DevelopmentManager()
