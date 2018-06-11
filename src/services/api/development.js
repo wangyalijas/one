@@ -18,7 +18,7 @@ class DevelopmentManager extends BaseModule {
     return 'test1'
   }
   test2 () {
-    return 'test2'
+    return 'test34'
   }
 }
 
