@@ -12,12 +12,6 @@ export default {
   beforeCreate () {
     console.log(developmentManager)
     developmentManager.getIndexList()
-      .then(
-        console.log(1)
-      )
-      .then(
-        console.log(2)
-      )
   }
 }
 </script>
